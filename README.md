@@ -172,7 +172,7 @@ Por fim, é possível observar que o dashboard criado serve como base para:
 `notebooks/queries_item7.sql`
 
 **Print das questões/queries na Dadosfera:**  
-![Preview do dash na Dadosfera](prints/Item7p1.png)
+![Preview do dash na Dadosfera](prints/Item7p1.jpeg)
 
 **Print do dashboard na Dadosfera:**  
 ![Preview do dashboard na Dadosfera](prints/Item7p2.png)
