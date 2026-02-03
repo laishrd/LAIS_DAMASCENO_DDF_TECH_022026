@@ -1,0 +1,286 @@
+{
+  "success": false,
+  "results": [
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "docid",
+          "result_format": "BASIC"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 150000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_message": null,
+        "exception_traceback": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_unique",
+        "kwargs": {
+          "column": "docid",
+          "result_format": "BASIC"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 150000,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_message": null,
+        "exception_traceback": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "title",
+          "result_format": "BASIC"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 150000,
+        "unexpected_count": 5152,
+        "unexpected_percent": 3.4346666666666663,
+        "unexpected_percent_total": 3.4346666666666663,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_message": null,
+        "exception_traceback": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_unique",
+        "kwargs": {
+          "column": "title",
+          "result_format": "BASIC"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 150000,
+        "missing_count": 5152,
+        "missing_percent": 3.4346666666666663,
+        "unexpected_count": 8862,
+        "unexpected_percent": 6.118137633933503,
+        "unexpected_percent_total": 5.908,
+        "unexpected_percent_nonmissing": 6.118137633933503,
+        "partial_unexpected_list": [
+          "Zeagoo Women's Open Front Cardigan 3/4 Sleeve Draped Ruffles Soft Knit Sweaters",
+          "Simple Joys by Carter's Toddlers and Baby Girls' Snug-Fit Footless Cotton Pajamas, Pack of 3",
+          "Nike Men's Race Running Shoe",
+          "The Children's Place Baby Toddler Boys Basic Skinny Jeans",
+          "The Children's Place Baby Boys' and Toddler Short Sleeve Pique Polo",
+          "Acelitt Women Comfy Drawstring Casual Elastic Waist Pocketed Shorts Pants (S-XXL)",
+          "Amazon Essentials Women's French Terry Fleece Full-Zip Hoodie (Available in Plus Size)",
+          "Brooks Womens Adrenaline GTS 20 Running Shoe",
+          "Charmian Women's Renaissance Lace Up Vintage Boned Bustier Corset with Garters",
+          "STACY ADAMS Men's Tazewell Tassel Slip-on Loafer",
+          "Saucony Women's 8 Pairs No Show Cushioned Invisible Liner Socks",
+          "Carhartt Men's Loose Fit Heavyweight Long-Sleeve Pocket T-Shirt",
+          "Fruit of the Loom Girls' Tag Free Cotton Brief Underwear Multipacks",
+          "Mercedes Benz Next Level Crew Neck T-Shirt",
+          "PJ Masks Short Sleeve T-Shirt - 2 Pack of PJMASKS Catboy & Gekko Short Sleeve Headless T-Shirts",
+          "IWOLLENCE Women's Waffle Knit Tunic Blouse Tie Knot Henley Tops Loose Fitting Bat Wing Plain Shirts",
+          "MCUCA iPhone X Case iPhone Xs case Liquid Silicone Gel Rubber Bumper Case\uff0cUltra-Thin Soft Microfiber Lined Full Body Protective Case Cover for Apple iPhone X iPhone Xs,Pink",
+          "Amazon Basics Kid's Sheet Set - Soft, Easy-Wash Lightweight Microfiber - Twin, Blue Dotted Stripes",
+          "Hanes Women's Essential Wear Around Nightshirt",
+          "Bulwark Men's Flame Resistant 9 Oz Twill Cotton Excel Fr Team Jacket, Navy"
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_message": null,
+        "exception_traceback": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "text",
+          "result_format": "BASIC"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 150000,
+        "unexpected_count": 29963,
+        "unexpected_percent": 19.975333333333335,
+        "unexpected_percent_total": 19.975333333333335,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_message": null,
+        "exception_traceback": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_unique",
+        "kwargs": {
+          "column": "text",
+          "result_format": "BASIC"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 150000,
+        "missing_count": 29963,
+        "missing_percent": 19.975333333333335,
+        "unexpected_count": 17705,
+        "unexpected_percent": 14.74961886751585,
+        "unexpected_percent_total": 11.803333333333335,
+        "unexpected_percent_nonmissing": 14.74961886751585,
+        "partial_unexpected_list": [
+          "From the brand Previous page Shop Crocs Collections Visit the Store What makes our products unique? We design unparalleled comfort for everywhere you go while innovating for personalization, so you hold the power to make your Crocs uniquely you. What problem are we solving? Comfort at every level, for the body and soul. We want you to stay true to who you are, what you want, and be able to celebrate your uniqueness. Because when you\u2019re comfortable, you can do anything. How did we get our start? We made our debut in 2002 as a boating shoe and became the shoe of choice for those looking for comfort and style. Today, our shoes are also a blank canvas for artists, partners, and customers so we can create something authentic together. Crocs Clogs Crocs Sandals Crocs at Work Crocs Jibbitz Crocs Kids Crocs is a brand of the people, for the people and we believe that everyone should be comfortable in their own shoes. We embrace and celebrate the uniqueness in everyone, inviting the world to Come As You Are. Next page From the manufacturer Read more Read more Great for everyone Fun Styling Personalization Read more Read more Jibbitz Everything Nice Pack Jibbitz Peace, Love and Outdoors Pack Jibbitz Letters Crocs with Charms Classic Clog Explore Similar Products Pop some unicorns into your shoes with Jibbitz shoe charms. Pop some peace, love and outdoors charms into your shoes with Jibbitz shoe charms. Pop some letters into your shoes with Jibbitz shoe charms. This set includes a pair of Classic Clogs and a pack of Jibbitz shoe charms. It\u2019s the iconic clog that started a comfort revolution around the world! Key Features Jibbitz are the perfect addition to your favorite pairs of clogs, slides, and more. Not a toy. Not intended for children under 3 years of age. Jibbitz are the perfect addition to your favorite pairs of clogs, slides, and more. Not a toy. Not intended for children under 3 years of age. Jibbitz are the perfect addition to your favorite pairs of clogs, slides, and more. Not a toy. Not intended for children under 3 years of age. Jibbitz are the perfect addition to your favorite pairs of clogs, slides, and more. Not a toy. Not intended for children under 3 years of age. Incredibly light and fun to wear. Water-friendly. Easy to clean and quick to dry. Pivoting heel straps for a more secure fit. Customizable with Jibbitz charms. Iconic Crocs Comfort: Lightweight. Flexible. 360-degree comfort. Fit N/A N/A N/A Roomy fit Roomy fit Size Up or Down N/A N/A N/A Size down to the next largest whole size Size down to the next largest whole size ",
+          "From the brand Lightweight Cardigan Previous page Best choice Black cardigan for women Most Wished Navy cardigan women Wardrobe Essentials Grey cardigan women New Color You will like--- Next page Product Description NOTE Lightweight and skin friendly fabric, a little thinner than a t-shirt, so that does cause it to wrinkle. When you receive it you can wash it in cold and hung on a hanger to dry and the wrinkles will decrease. Just the right thickness for Summer evenings or Spring/Fall.The light color, like white, may be a little see through. Note: Do remind to check the size chart before ordering. This cardigan is in normal size, if you are more like a loose sense, then ordered up a size and the sleeve is slim fit! Tip: Color may vary slightly from image. Colors may vary from different viewing devices.. For the color of the product, please refer to the actual received. DESIGN&OCCASION Great for jeans, leggings, or little dresses,completes an out fit for a wedding! Perfect sweater for just about any event - I bought it for a chamber music performance, and also wear it to teach and for church. It is very comfortable, soft, and flattering! I bought 2 colors Gray and brown . They are fantastic the material very soft and very light excellent for office . I wear all the time at work. The fitting was so perfect . I highly recommend this product to my co workers and to all woman who loves to wear light blazer! I ordered this to go over a sleeveless dress. I love it! The cut is flattering, not boxy. I\u2019m 5\u2019 4\u201d and weigh about 185. I ordered an XL and it fits great. The length covers my bubble butt. Sleeves are 3/4 length and easily push up and STAY! Not tight on upper arms. It is made of cotton and spandex, not sheer so it covers what needs to be covered without being bulky. Highly recommended! HIGH QUANLITY MATERIAL Does this wrinkle easily? Is this hard to iron? The material is super soft,does not wrinkle and washes great!! If you dry on low, take out of dryer quickly and hang u, it does not need ironing. It doesn't wrinkle easily. Once it fell off the chair I had it on and was on the floor overnight, and it only wrinkled a bit. I lightly steamed it, and it was fine. When I took it out of the package, it smelled bad. Always wash before putting on clothes. After washing, there will be no smell and no wrinkles. I LOVE LOVE LOVE this little cardi!!! The material is soft, its really good quality, not thin, not thick, 3/4 sleeves looks just like the picture the seller posted & it\u2019s perfect, it lays nicely & I absolutely love it I wish they had it in every color ! For reference, I am 5\u20193\u201d & I weigh 134lbs, I purchased a small & it\u2019s fits me perfectly! Great for jeans, leggings, or little dresses, I\u2019m sooooo happy I bought this. I do not put most of my clothes from Amazon in the dryer, esp if I\u2019m unsure of quality, so idk if it would shrink, I wash everything on normal then hang to dry & my clothes, I lightly sprayed this cardi with some water in a spray bottle after hanging to dry & it looked like I ironed it. About Size: Depending on her type of body on the top, I'm 5'2, small torso, 36C (it doesn't matter because it is open). I think the small will fit. It is beautiful I think it runs true to size. I\u2019m 5\u20191\u201d and weigh 147 . I got a medium and am very happy with the way it hangs...hope this helps! It\u2019s really cute and the fabric is very soft. I ordered this to go over a sleeveless dress. I love it! The cut is flattering, not boxy. I\u2019m 5\u2019 4\u201d and weigh about 185 . I ordered an XL and it fits great. The length covers my bubble butt. Sleeves are 3/4 length and easily push up and STAY! Not tight on upper arms. This is the perfect light weight sweater cardigan . I am 5ft 4inches and 165 pounds . I bought black xxl . I am a 40 c . The sleeves go two tge elbow not past . The sleeve has a nice fit . I just returned from the pool . I had a black cover up and put this light cardigan on . It is perfect . I realize that black on black on black is difficult to see . I bought 2 more . I will do a color reveiw and let you know how they hold up . I must say this is the perfect spring and summer light sweater /jacket. SIZE&COLOR Material : 95% Rayon, 5%Spandex Sleeve : Three-quarter sleeves Pattern : Classic solid color, tie-dye series, leopard print series Feature : Flounce Hem Garment Care : Washing max 40\u00b0C Package Content : 1 x Women Cardigan Our Model Information : Height 175cm, Bust 90cm, Waist 60cm, Hip 90cm Size : There are 5 sizes (S, M, L, XL, XXL) available for the following listing. please allow 1-2cm differs due to manual measurement, thanks (All measurement in cm and please note 1cm=0.3937inch) Tip : There may be slight differences between the picture and the actual product. For the color of the product, please refer to the actual received. Sleeveless Vest Long Sleeve Cardigan Floral Tank Tops Flowy Tunic Tops Lace Dress Extender Full Slip Women's Sweater Vests Women's Cardigans Women's Tanks & Camis Women's Tanks & Camis Women's Full Slips Women's Sleepwear ",
+          "Product Description These footless 1-piece pajamas take them from nap time to play time in no time! includes 3. Product Description These footless 1-piece pajamas take them from nap time to play time in no time! includes 3.From the brand easy looks for endless fun Everyday styles for busy little bodies simplified. From adventurous playdates to cozy days indoors, shop effortless outfits and basics. Previous page stock up on cute basics Visit the Store holiday pjs for sweet dreams Visit the Store snuggle up in warm winter gear Visit the Store ready, set, play in easy sets Visit the Store Next page From the manufacturer ",
+          "Product Description Read more Read more ",
+          "Product Description ",
+          "From the brand Previous page Home Storage Boho Tribal Area Rug Laundry Room Rug Absorbent Bath Rug Kitchen Mat Cushioned Upgraded Doormat Rug Boho Diamond Area Rug Upgraded Boho Rug Buffalo Plaid Rug Black and White Striped Rug EARTHALL Bathroom Rug Next page Product Description EARTHALL is your best choice for Home D\u00e9cor & Kitchen Products on Marketplace. We are specialized in home & kitchen products for many years, your life will be different since we met. CLASSIC DESIGN The area rug designed with classic pattern, multicolor easy matched with your other home d\u00e9cor MULTI-SIZE The buffalo plaid multisize rugs are great for your home, offer you a farmhouse style COTTON MATERIAL Cotton rugs offer a great feel and warmth. Absorbs water efficiently and is very soft EASY TO CLEAN Jut put it in a mesh laundry bag, then toss into the washer, cold water, gentle cycle, and tumble dry low heat Read more Perfect For Different Occasion You Want! Bathroom Rug (2'x3') Keep your feet from cold and hard floor. A non slip rug pad is needed Frontdoor Rug (2.3'x3.6') Make your home more inviting with this bold striped cotton rug Frontdoor Rug (2.3'x3.6') Put under doormat. Stylish layering. An easy update to the front porch Bedroom Rug (2'x4.3') Keep your feet from cold and hard floor. Look more cozy in bedroom Read more Laundry Room (2'x4.3') Colors are vibrant and it is well made. A non slip rug pad is needed when use on hard floor Hallway Runner (2'x6') Protect your floors from wear and tear at hallway area which receives plenty of traffic Kitchen Floor Rug (3'x5') Keep your floor from dripping waters and stains, make your kitchen floor clean and dry Read more Living Room Rug (4'x6') Protect your living room wood floor and babies or pets can playing in it Dining Room Rug (5'x7') Absorb dirt and water, keep your floor clean and dry Patio Rug (5.5'x7.5') Fit for your patio, hot style. You can enjoy the sunshine at any time Read more Buffalo Plaid Rug Laundry Room Rug Plaid Kitchen Mat Geometric Runner Rug Elegant Woven Rug Modern Bath Mat Material Cotton Nylon, Rubber Polypropylene Cotton Cotton Microfibre Non-slip \u2713 \u2713 \u2713 Machine Washable \u2713 \u2713 \u2713 \u2713 Versatile Usage Scenarios Front Door/ Kitchen/ Patio/ Porch Laundry Room /Kitchen /Bathroom Front Door/ Kitchen/ Garage/ Patio/ Porch Front Door/ Kitchen/ Garage/ Patio/ Porch Front Door/ Kitchen/ Garage/ Patio/ Porch Front Door/ Kitchen/ Garage/ Patio/ Porch ",
+          "From the manufacturer ",
+          "From the manufacturer Read more EASY TO SHOP! MADE WITH EXTRA STRETCH THE SLIM FIT THE GO-TO CLASSIC WHEN COOL MEETS COMFORT Multipacks Ready to shop in packs of 2 or 3! Singles only 2 & 4 packs 2 & 3 packs 2 pack Fit Skinny, Bootcut or Straight! Skinny & Straight Classic fit hip & thigh, skinny opening Classic fit hip & thigh, straight opening Classic fit hip & thigh, bootcut opening Fabric Styles with stretch for extra comfort Super soft stretch=All day comfort Basic and super soft, comfy stretch options Basic and super soft, comfy stretch options Basic only Washes Variety of washes for everyday wear 10 washes! 10 washes! 6 washes 2 washes Pull-on EZ-fit with adjustable waist \u2713 \u2713 \u2713 \u2713 \u2713 Read more ",
+          "Product Description Amazon Essentials is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of women's apparel includes cashmere sweaters, fleece and down jackets, and more, including plus-size options. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort. Product Description Amazon Essentials is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of women's apparel includes cashmere sweaters, fleece and down jackets, and more, including plus-size options. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.From the manufacturer Previous page Outfit Your Superfan Disney designs Make everyday a Disney day with designs for the whole family - exclusive to Amazon Outfit Your Occasions Women's looks Dresses and more, in fresh styles to match all your moments. Outfit Your Vibe New styles for him Easygoing or buttoned up, find the tops and bottoms you need for all that you do. Outfit Your Little One The baby scene Keep them in cuteness. Shop new styles, available in adorable. Next page 1 DISNEY X AE 2 WOMEN 3 MEN 4 KIDS/BABY ",
+          "Product Description Read more Kids Liquid Multivitamin Joint Complete Premium Sleep-A-Weigh Plus Women's Liquid Multivitamin Liquid Calcium and Magnesium Glucosamine Chondroitin & MSM Liquid \u2713 \u2713 \u2713 \u2713 \u2713 \u2713 Flavors Unflavored Unflavored Pineapple Tropical Orange Tropical Tropical Oasis Promise \u2713 \u2713 \u2713 \u2713 \u2713 \u2713 ",
+          "From the manufacturer Read more Read more Read more ",
+          "From the brand Previous page Acelitt Hot Style Visit the Store Acelitt Hot Style Visit the Store The mission of the Acelitt company, as a designing type brand, is to represent the international pulse of fashion trend in design style, market and delivery of a perfect lifestyle system to global customer. The requirement of innovation capability, righteousness and the quality of service are put into use their products and philosophy. Acelitt highlights the real demand of customers everywhere, from leisure time to work time, young to ladies. How we got our start? Acelitt was created with a clear purpose in mind. That is to empower women by letting them feel good about themselves. What makes our product unique? Our products are based on the theme of sexy fashion, including sweaters, coats, jumpsuits, shirts and other full women's series. We have an independent research and development team, we are fast on new products, and try our best to lead the trend of women's clothing. Why we love what we do? Acelitt adheres to the business philosophy of \"making it easy to buy fashionable clothing\".We always believe that giving you confidence, beauty and comfort is our greatest success! Next page Product Description Acelitt Womens Summer Drawstring Shorts Pants You are looking for a casual companion for Summer fashion styles: Then this shorts are exactly the right ones, because they bring sun into your outfit! Combine the shorts with basic t-shirt, blouse, tunic and flats and sandals - you will become a fashion queen in this way. Acelitt Women Ladies Casual Elastic Waist Linen Shorts with Pockets Clothing Type: Women\u2019s Shorts Pattern: Solid Color Length: Short Pant Length Waist: Mid Rise Women Ladies Casual Summer Elastic Waist Beach Linen Sweat Shorts with Pockets They always fit perfectly, because there is moderate stretchable wide waistband, comfortable to wear; besides, the drawstring integrated into the waistband provides support and conjures up a great figure , you can adjust it according to your needs. Summer Casual Loose Drawstring Elastic Waist Pocketed Shorts Pants for Women The Hem Of The Trousers Is Fashionably Turned Over. Loose cut, these casual pants follow every movement. Side pockets further underline the casual touch of these shorts. Their soft flowing and skin-friendly material ensures real comfort and a great silhouette. Beach Linen Sweat Shorts Adjustable elastic drawstring Cozy and soft shorts for summer This comfy short with two pocket and drawing design Wide Leg Shorts Features: Mid/High-rise elastic waistband for stretchy fit, Pockets both sides and back, Basic Solid, Adjustable waist drawstring Side pocket design It is perfect to match with various blouses Wide and comfortable shorts legs can bring you the perfect wearing experience Two back pockets It looks casual chic and loose cozy to wear Casual and skin-friendly fabric with distressed style Acelitt Womens Summer Fashion Collection Womens Summer Jumpsuits Womens Cutout Dress Womens Short Rompers Womens Bodycon Dress Zipper Striped Hoodies Drawstring Elastic Shorts Womens Halter Tank Tops Category Women's Short Rompers Womens Dress Women's Short Rompers Womens Dress Sweatshirt Womens Shorts Womens Tops Highlights Tie Waist Romper Sexy Bodycon Dress One Piece Romper Printed 3 Color Block Drawstring Elastic Waist High Neck Halter Season Spring/Fall/Summer Spring/Fall/Summer Spring/Fall/Summer Spring/Fall/Summer Spring/Fall/Winter Spring/Fall/Summer Spring/Fall/Summer Soft \u2714 \u2714 \u2714 \u2714 \u2714 \u2714 \u2714 Skin-friendly \u2714 \u2714 \u2714 \u2714 \u2714 \u2714 \u2714 Acelitt Womens Summer Fashion Collection Womens Midi Tank Dresses Womens Halter Tops Womens V Neck Jumpsuit Womens Cutout Dress Womens T-Shirts Dresses Womens Sweat Shorts Womens A-Line Dresses Category Womens Short Dress Womens Tops Women's Rompers Womens Dress Womens Short Dress Womens Summer Shorts Womens Dress Highlights T-Shirt Dresses Sleeveless Halter Wide Leg Jumpsuit Bodycon Dress A-line Tank Dress Solid Shorts Button Down Dress Season Spring/Fall/Summer Spring/Fall/Summer Spring/Fall/Summer Spring/Fall/Summer Spring/Fall/Summer Spring/Fall/Summer Spring/Fall/Summer Soft \u2714 \u2714 \u2714 \u2714 \u2714 \u2714 \u2714 Skin-friendly \u2714 \u2714 \u2714 \u2714 \u2714 \u2714 \u2714 ",
+          "From the manufacturer ",
+          "From the manufacturer Previous page Outfit Your Superfan Disney designs Make everyday a Disney day with designs for the whole family - exclusive to Amazon Outfit Your Occasions Women's looks Dresses and more, in fresh styles to match all your moments. Outfit Your Vibe New styles for him Easygoing or buttoned up, find the tops and bottoms you need for all that you do. Outfit Your Little One The baby scene Keep them in cuteness. Shop new styles, available in adorable. Next page 1 DISNEY X AE 2 WOMEN 3 MEN 4 KIDS/BABY ",
+          "Product Description Read more Read more Read more Read more Read more ",
+          "Product Description Designed with an eye toward contemporary style, ease of care, and plush comfort, SAFAVIEH's Milan Shag Collection creates a relaxed atmosphere. Ultra-soft non-shedding synthetic fibers are used for this premium collection of multi-level machine-woven shag rugs. A delightful pile adds warmth and flowing dimension to any room, and works well in higher-traffic areas of the home with frequent kid or pet activity. Perfect for the living room, dining room, bedroom, study, home office, nursery, kid's room, or dorm room. Product Description Designed with an eye toward contemporary style, ease of care, and plush comfort, SAFAVIEH's Milan Shag Collection creates a relaxed atmosphere. Ultra-soft non-shedding synthetic fibers are used for this premium collection of multi-level machine-woven shag rugs. A delightful pile adds warmth and flowing dimension to any room, and works well in higher-traffic areas of the home with frequent kid or pet activity. Perfect for the living room, dining room, bedroom, study, home office, nursery, kid's room, or dorm room.From the manufacturer Over 100 Years of Excellence in Home Furnishings Unmatched Style Quality Craftsmanship Trusted Brand Based in New York SAFAVIEH's Milan Shag Collection The plush pile of Milan shags is the home decorator's smart choice for adding warmth and flowing dimension to the clean-lined look of contemporary d\u00e9cor. Refined machine-woven construction and enhanced synthetic fibers Kid and pet-friendly with virtually no shedding and easy cleaning Beautifully plush 2-inch pile thickness for softness underfoot Versatile shag works with any style of home d\u00e9cor to create a comfortable living space for all to enjoy Perfect for the bedroom, living room, dining room, hallway, foyer, home office, playroom, or entryway Read more Create a Cozy Intimate Space Convenient Upkeep Irresistibly Plush Quality Craftsmanship Read more A Smart and Stylish Choice Expert machine-woven construction ensures exceptional comfort and durability in any room. Easy-to-clean stain-resistant fibers are perfect for life's unpredictable messes from kid or pet activity. Maintenance is a breeze with sturdy non-shedding fibers that withstand regular vacuuming. Even in the busiest areas of your home, these rugs will last for years with proper care for long-lasting beauty. Read more Find the Perfect Rug Size for your Room Designer Tips: For a small- to mid-size living space, a 5\u2019 x 8\u2019 rug makes the room look and feel more spacious. For a mid- to large-size living room, an 8\u2019 x 10\u2019 or 9' x 12' provides maximum comfort underfoot and adds proportion and balance. Designer Tips: For the bedroom, a 5\u2019 x 8\u2019 rug is ideal for a full or twin size bed, and an 8\u2019 x 10\u2019 or 9\u2019 x 12\u2019 rug works well with a king or queen size bed. Designer Tips: Use a 5\u2019 x 8\u2019 rectangular rug in smaller dining areas with a table and 4 \u2013 6 chairs. Use an 8\u2019 x 10\u2019 or 9\u2019 x 12\u2019 rug in larger dining areas with a table and 6 \u2013 8 chairs. Read more ",
+          "From the brand Previous page Shop All Visit the Store Shop Cushioned Running Shoes Shop All Energize Shoes Next page Product Description Read more BALANCED, SOFT CUSHIONING The DNA LOFT Crash Pad cushions each footfall and works with BioMoGo DNA to adapt to your every stride. MODERNIZED FIT A new streamlined, engineered mesh upper with 3D Fit Print offers the structure and proven fit the Adrenaline is known for \u2014 without excess bulk. GUIDERAILS HOLISTIC SUPPORT SYSTEM We\u2019ve shifted our focus beyond the feet to the most injury-prone part of a runner\u2019s body: the knees. GuideRails keep you moving comfortably by keeping excess movement in check. Read more WEAR TESTERS SAY \u201cThey feel... refreshing! That\u2019s the best description I have! I have lots of room in the toe box, which I like. I can feel the stability, but also the cushion. And they are so light!\u201d Read more Adrenaline GTS 20 Ravenna 11 Ghost 13 Bedlam 3 Launch 7 Glycerin 18 Support or Neutral Support Support Neutral Support Neutral Neutral Experience Level Cushion Level 2 of 3 Speed Level 1 of 3 Cushion Level 2 of 3 Energize Level 3 of 3 Speed Level 1 of 3 Cushion Level 3 of 3 Experience Description Soft and protective to cushion your every step Fast and streamlined to propel you through your run Soft and protective to cushion your every step Responsive and springy to give lift to your every stride Fast and streamlined to propel you through your run Soft and protective to cushion your every step Recommended For Long Distance, Treadmill, Road Long Distance, Speed / Track, Treadmill, Road Long Distance, Cross Training, Treadmill, Road Long Distance, Speed / Track, Cross Training, Treadmill, Road Speed / Track, Cross Training, Treadmill, Road Long Distance, Treadmill, Road Midsole Drop 12mm 10mm 12mm 8mm 10mm 10mm Weight 9.4oz / 266.5g 8.4oz / 238.1g 8.8 oz / 249.5g 9.5oz / 269.3g 8.1oz / 229.6g 9.0oz / 255.1g CUSHION Cushioned experience is soft and protective . Level 1 - Minimal Cushion - Recommended for the runner looking for a softer run without too much cushion. Level 2 - Medium Cushion - Recommended for the runner looking for a soft run with cushion. Level 3 - High Cushion - Recommended for the runner looking for a very soft and protective cushion. ENERGIZE Energized experience is responsive and springy , adding extra lift to your stride! Level 1 - Minimal Energize - Recommended for the runner looking for minimal spring in their stride without feeling damp. Level 2 - Medium Energize - Recommended for the runner looking for a springy and responsive feeling stride. Level 3 - High Energize - Recommended for the runner looking for a very springy and responsive stride. SPEED Speed experience is lightweight, fast and streamlined, adding extra speed to your stride! Level 1 - Minimal Speed - Recommended for the runner looking for speed in their stride with minimal cushion. Level 2 - Medium Speed - Recommended for the runner looking for a fast and responsive feeling stride. Level 3 - High Speed - Recommended for the runner looking for the lightest weight and most responsive feeling stride. CONNECT Connected experience is lightweight and flexible to naturally feel your run! Level 1 - Minimal Connect - Recommended for more natural feeling run with a little cushion. Level 2 - Medium Connect - Recommended for the runner looking for natural feeling run and lightweight shoe. Level 3 - High Connect - Recommended for the runner looking to feel connected to every stride for a very natural feeling run Read more ",
+          "Product Description Add Romantic Colors to Your Life! Are you boring for dull life? Can not wait to participate in the Halloween parties or Renaissance festival? Sometimes people will desire to draw some colors on their white paper-like life and pursue something stimulating. If you have the same thoughts, let's wear the renaissance vintage corset to revel. Freeze beautiful moments to create unforgettable memories at parties, make your life full of colors and become a charming lady! The model shows how beautiful the corset is as well when you wear it. And the details you know more, the love will get more. Let us explain why we will like this corset. Based on the idea and design of Renaissance costume, we think if we make it as a corset, it would be very sexy and fascinating, and then we make it come true. Adopted the unique leatherette material to form distressed and retro effects. Different colors fit for various occasions and styles, such as vintage, fashion, Victorian style. Decorated with wide shoulder straps, tied with a slight bow, looks very cute and won\u2019t make too much burden to the shoulder at the same time. The shoulder straps design helps you to show off your beautiful clavicle and curve. Also, you can put the shoulder straps to off-shoulder type relied on your favor. Lace-up and zipper closure at the front makes you an effortless display of charisma without a peasant blouse. 10 plastic bones give you body support and back lace-up design shaping, making you look slim. It comes with detachable garters, and g-string also has a 6.3\" modesty panel to avoid exposing the skin. Multi-style Collocations of Our Vintage Corset Which Type Do You Like? If you can not choose, don't worry, our corset has alternative changes. Our web celebrities show different looks for you. Buy one corset, and you have more choices to consider what type and style you will be. Creative Customer Show DIY Your Corset According to your unique idea and own style, customize your look. You have creativity and innovation to complete works. We believe you will become the most charming lady at the parties when you wear this Renaissance corset. You will get many compliments from your friends or family. Suitable for Different Costume Cosplay Not only for Renaissance costumes, but it also fits pirate costumes. If you have any ideas, you can give full play to your creativity in clothing matching. Change and reinvent, again and again, without repeat, and you are the hundred-face diva. Match by Your Hand, Double Happiness in Your Heart Are you tired of a common and standard costume set? Free collocation, get rid of fixed thinking, do whatever you want, and be free and independent. Everyone has a unique beauty, and you are even more charming when you wear a corset with a skirt, which is the icing on the cake! Read more Your fun won't stop. Here are our relative clothing collocations, which you probably are interested in. Just click below products to find more new possibilities and potential! If you want more collocations, please click on our store to visit! We can't wait to see your glorious look! Steampunk High Low Skirt Vintage Peasant Blouse Top Off shoulder Blouse Top Steampunk One-shoulder Overbust Corset Steampunk Overbust Corset with Chain Steampunk Overbust Corset with Buckles Style Steampunk/Vintage Vintage Steampunk/ Vintage Steampunk/ Cyberpunk Steampunk/ Retro Steampunk/ Gothic ",
+          "From the manufacturer Stacy Adams Founded in 1875 in Brockton, Massachusetts, at Stacy Adams we have built a reputation for staying a step ahead of the latest fashion trends to create footwear for the man who understands style and appreciates quality. Read more Tazewell Modern Materials A contemporary mix of textures and materials with an eye-catching fabric upper highlighted by a suede look tassel. Heel to Toe Memory Foam A heel to toe, fully cushioned Memory Foam insole works with your stride throughout the day to offer unbeatable comfort. Durable Dress Sole Stacy Adams rubber soles offer an unbeatable combination of style, comfort and durability. These long-lasting soles are suitable for all-weather wear with greater slip resistance than other soles. With their out-of-the-box flexibility and shock absorbing qualities, these soles also provide enhanced all-day comfort. Read more ",
+          "From the manufacturer "
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_message": null,
+        "exception_traceback": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+          "column": "text",
+          "min_value": 20,
+          "result_format": "BASIC"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 150000,
+        "missing_count": 29963,
+        "missing_percent": 19.975333333333335,
+        "unexpected_count": 1,
+        "unexpected_percent": 0.0008330764680890059,
+        "unexpected_percent_total": 0.0006666666666666666,
+        "unexpected_percent_nonmissing": 0.0008330764680890059,
+        "partial_unexpected_list": [
+          "SPREAD LOVE SAFELY"
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_message": null,
+        "exception_traceback": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_in_set",
+        "kwargs": {
+          "column": "text",
+          "value_set": [
+            "Product Description",
+            "N/A",
+            ""
+          ],
+          "result_format": "BASIC"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 150000,
+        "missing_count": 29963,
+        "missing_percent": 19.975333333333335,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_message": null,
+        "exception_traceback": null
+      }
+    }
+  ],
+  "evaluation_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 8,
+    "successful_expectations": 3,
+    "unsuccessful_expectations": 5,
+    "success_percent": 37.5
+  },
+  "meta": {
+    "great_expectations_version": "0.15.50",
+    "expectation_suite_name": "default",
+    "run_id": {
+      "run_name": null,
+      "run_time": "2026-02-03T05:30:54.793499+00:00"
+    },
+    "batch_kwargs": {
+      "ge_batch_id": "73fd869e-00c1-11f1-8059-0242ac1c000c"
+    },
+    "batch_markers": {},
+    "batch_parameters": {},
+    "validation_time": "20260203T053054.793359Z",
+    "expectation_suite_meta": {
+      "great_expectations_version": "0.15.50"
+    }
+  }
+}
