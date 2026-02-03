@@ -43,7 +43,7 @@ Após a importação:
 - E utilizado para análises em etapas futuras.
 
 **Link para o conjunto de dados integrado na Dadosfera:**  
-`[<LINK_DO_DATASET_NA_DADOSFERA>](https://app.dadosfera.ai/pt-BR/collect/import-files/fd5df53c-3f31-4c70-b8c9-2b928be3e9be)`
+`https://app.dadosfera.ai/pt-BR/collect/import-files/fd5df53c-3f31-4c70-b8c9-2b928be3e9be`
 
 **Print do conjunto de dados integrado na Dadosfera:**  
 ![Preview do dataset na Dadosfera](prints/Item2.png)
@@ -67,7 +67,7 @@ Para documentar as colunas disponíveis, a seguir é apresentado um Dicionário 
 | text | Texto | Descrição detalhada do produto |
 
 **Link para o dataset catalogado na Dadosfera:**  
-`[<LINK_DO_CATALOGO_NA_DADOSFERA>](https://app.dadosfera.ai/pt-BR/catalog/data-assets/201eb22a-709e-454e-86ad-87fe4e1f4bc2)`
+`https://app.dadosfera.ai/pt-BR/catalog/data-assets/201eb22a-709e-454e-86ad-87fe4e1f4bc2`
 
 **Print do conjunto de dados catalogado na Dadosfera:**  
 ![Preview do dataset na Dadosfera](prints/Item3.png)
@@ -107,7 +107,7 @@ Por fim, a documentação das regras de qualidade seria integrada aos dados, pro
 `notebooks/item4_case_dadosfera.ipynb`
 
 **Link do notebook de Qualidade de Dados no Google Colab:**  
-`[<LINK_DO_NOTEBOOK_NO_COLAB>](https://colab.research.google.com/drive/14Ws3vpeNcaoepQmjawPfCuQGcx6fVJ6Z?usp=sharing)`
+`https://colab.research.google.com/drive/14Ws3vpeNcaoepQmjawPfCuQGcx6fVJ6Z?usp=sharing`
 
 **Relatório gerado pelo notebook de Qualidade de Dados:**  
 `notebooks/relatorio_item4.json`
@@ -164,7 +164,7 @@ Por fim, é possível observar que o dashboard criado serve como base para:
 - Suporte a iniciativas analíticas e de novos modelos.
 
 **Link para o dashboard presente na Dadosfera:**  
-`[<LINK_DO_DASH_NA_DADOSFERA>](https://metabase-treinamentos.dadosfera.ai/collection/1048-lais-damasceno-022026)`
+`https://metabase-treinamentos.dadosfera.ai/collection/1048-lais-damasceno-022026`
 
 **Queries SQL utilizadas para gerar as visualizações:**  
 `notebooks/queries_item7.sql`
@@ -174,5 +174,18 @@ Por fim, é possível observar que o dashboard criado serve como base para:
 
 **Print do dashboard na Dadosfera:**  
 ![Preview do dashboard na Dadosfera](prints/Item7p2.png)
+
+
+---
+
+## Conclusão
+
+O e-commerce atualmente apresenta arquitetrura de dados baseada em múltiplos serviços, o que pode aumentar a complexidade operacional, ter custo elevado, demandar tempo e esforço extras. Ao desenvolver o case ficou claro que a Dadosfera pode substituir a arquitetura atual, simplificando o caminho entre dados e valor e permitindo centralizar em apenas uma plataforma diversos serviços.
+
+Quanto à viabilidade técnica a Dadosfera permite a centralização de atividades como: integração de grandes volumes de dados, catalogação de conjuntos de dados, monitoramento contínuo, geração de análises relevantes por meio de SQL e dashboards. Esta centralização também apresenta benefícios em relação à viabilidade econômica, como, redução de custos de infraestrutura distribuída, redução de custos operacionais de manutenção e diminuição no tempo de importação de dados à geração de valor.
+
+Como oportunidades de ganhos futuros a adoção da Dadosfera permite econômia de tempo e recursos para focar no que realmente é prioridade para o negócio, como, expansão de dados, implementação de modelos de IA e escalabilidade.
+
+
 
 
