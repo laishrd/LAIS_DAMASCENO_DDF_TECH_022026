@@ -164,7 +164,8 @@ Por fim, é possível observar que o dashboard criado serve como base para:
 - Suporte a iniciativas analíticas e de novos modelos.
 
 **Link para o dashboard presente na Dadosfera:**  
-`https://metabase-treinamentos.dadosfera.ai/collection/1048-lais-damasceno-022026`
+`https://metabase-treinamentos.dadosfera.ai/collection/1048-lais-damasceno-022026` - pasta Lais Damasceno - 022026
+`http://metabase-treinamentos.dadosfera.ai/public/dashboard/fe5443cd-b079-4746-8102-4fb9cdbda0e9` - dashboard
 
 **Queries SQL utilizadas para gerar as visualizações:**  
 `notebooks/queries_item7.sql`
