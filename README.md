@@ -46,7 +46,7 @@ Após a importação:
 `https://app.dadosfera.ai/pt-BR/collect/import-files/fd5df53c-3f31-4c70-b8c9-2b928be3e9be`
 
 **Print do conjunto de dados integrado na Dadosfera:**  
-![Preview do dataset na Dadosfera](prints/Item2.png)
+![Preview do dataset na Dadosfera](prints/Item2.jpeg)
 
 ## Item 3 - Sobre a Dadosfera - Explorar
 
@@ -70,7 +70,7 @@ Para documentar as colunas disponíveis, a seguir é apresentado um Dicionário 
 `https://app.dadosfera.ai/pt-BR/catalog/data-assets/201eb22a-709e-454e-86ad-87fe4e1f4bc2`
 
 **Print do conjunto de dados catalogado na Dadosfera:**  
-![Preview do dataset na Dadosfera](prints/Item3.png)
+![Preview do dataset na Dadosfera](prints/Item3.jpeg)
 
 
 ## Item 4 - Sobre Data Quality
@@ -113,7 +113,7 @@ Por fim, a documentação das regras de qualidade seria integrada aos dados, pro
 `notebooks/relatorio_item4.json`
 
 **Print do Relatório de Qualidade dos Dados após execução do notebook:**  
-![Preview do relatorio no colab](prints/Item4.png)
+![Preview do relatorio no colab](prints/Item4.jpeg)
 
 ## Item 7 - Sobre Análise de Dados - Analisar
 
